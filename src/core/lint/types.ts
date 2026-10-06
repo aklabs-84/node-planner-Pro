@@ -1,4 +1,4 @@
-import type { Project } from '../schema'
+import type { Project } from '../schema.js'
 
 export type Severity = 'error' | 'warn' | 'suggest'
 

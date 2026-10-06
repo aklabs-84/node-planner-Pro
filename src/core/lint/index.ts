@@ -1,9 +1,9 @@
-import type { Project } from '../schema'
-import { RULES } from './rules'
-import type { Issue, Severity } from './types'
+import type { Project } from '../schema.js'
+import { RULES } from './rules.js'
+import type { Issue, Severity } from './types.js'
 
-export { SEVERITY_LABEL } from './types'
-export type { Issue, Severity } from './types'
+export { SEVERITY_LABEL } from './types.js'
+export type { Issue, Severity } from './types.js'
 
 const ORDER: Record<Severity, number> = { error: 0, warn: 1, suggest: 2 }
 

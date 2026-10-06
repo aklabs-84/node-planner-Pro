@@ -1,5 +1,5 @@
-import { buildIr, type Ir, type IrScreen } from './ir'
-import type { Project } from './schema'
+import { buildIr, type Ir, type IrScreen } from './ir.js'
+import type { Project } from './schema.js'
 
 /** 클릭 시뮬레이터가 쓰는 순수 계산. 화면 정보는 지시문과 같은 IR에서 가져온다. */
 export interface Sim {

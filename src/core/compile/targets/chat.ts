@@ -1,5 +1,5 @@
-import type { Ir } from '../../ir'
-import { acceptanceSection, bullets, dataSection, designSection, externalsSection, notificationsSection, rolesSection, h, join, overview, screensSection, securitySection, unresolvedSection } from '../common'
+import type { Ir } from '../../ir.js'
+import { acceptanceSection, bullets, dataSection, designSection, externalsSection, notificationsSection, rolesSection, h, join, overview, screensSection, securitySection, unresolvedSection } from '../common.js'
 
 /** Gemini / ChatGPT: 대화형. 먼저 질문하고 시작하도록 유도한다. */
 export function compileChat(ir: Ir): string {

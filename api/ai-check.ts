@@ -3,9 +3,9 @@
  * - API 키는 서버 환경변수(GEMINI_API_KEY) 또는 사용자가 헤더로 보낸 본인 키만 쓴다. 번들에는 절대 들어가지 않는다.
  * - 프로젝트를 서버에서 다시 검증하고, 프롬프트도 서버에서 만든다.
  */
-import { buildAiPrompt, MAX_PROJECT_BYTES, parseAiFindings } from '../src/core/aicheck'
-import { ProjectSchema } from '../src/core/schema'
-import { askGemini, geminiFailure, guard, json } from './_gemini'
+import { buildAiPrompt, MAX_PROJECT_BYTES, parseAiFindings } from '../src/core/aicheck.js'
+import { ProjectSchema } from '../src/core/schema.js'
+import { askGemini, geminiFailure, guard, json } from './_gemini.js'
 
 export default {
   async fetch(request: Request): Promise<Response> {

@@ -1,5 +1,5 @@
-import type { PlanNode, Project } from '../schema'
-import type { Issue, Rule, Severity } from './types'
+import type { PlanNode, Project } from '../schema.js'
+import type { Issue, Rule, Severity } from './types.js'
 
 const nameOf = (n: PlanNode) => n.name.trim() || '(이름 없음)'
 const isScreen = (n: PlanNode) => n.type === 'screen'

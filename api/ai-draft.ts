@@ -2,8 +2,8 @@
  * AI 초안 프록시 (Vercel 서버리스 함수): 앱 설명 한두 문장 → 노드 기획 초안.
  * 키는 서버 환경변수 또는 사용자가 보낸 본인 키만 쓰고, 프롬프트는 서버가 만든다.
  */
-import { buildDraftPrompt, MAX_DESC, parseDraft } from '../src/core/aidraft'
-import { askGemini, geminiFailure, guard, json } from './_gemini'
+import { buildDraftPrompt, MAX_DESC, parseDraft } from '../src/core/aidraft.js'
+import { askGemini, geminiFailure, guard, json } from './_gemini.js'
 
 export default {
   async fetch(request: Request): Promise<Response> {

@@ -2,7 +2,7 @@
  * 클래스로그AI 제출 프록시 (Vercel 서버리스 함수).
  * CLASS_TOOL_API_KEY는 이 서버 코드 안에서만 쓰며 번들에는 절대 들어가지 않는다.
  */
-import { json } from './_gemini'
+import { json } from './_gemini.js'
 
 declare const process: { env: Record<string, string | undefined> }
 

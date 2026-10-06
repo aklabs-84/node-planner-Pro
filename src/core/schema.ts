@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { LAYOUT_IDS, THEME_IDS } from './design'
+import { LAYOUT_IDS, THEME_IDS } from './design.js'
 
 export const NODE_TYPES = ['screen', 'component', 'data', 'logic', 'external', 'notification', 'role', 'note'] as const
 export type NodeType = (typeof NODE_TYPES)[number]

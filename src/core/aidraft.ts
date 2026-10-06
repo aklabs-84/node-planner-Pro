@@ -1,6 +1,6 @@
 import { z } from 'zod'
-import { autoLayout } from './layout'
-import { EDGE_KINDS, EDGE_META, NODE_TYPES, parseProject, type Project } from './schema'
+import { autoLayout } from './layout.js'
+import { EDGE_KINDS, EDGE_META, NODE_TYPES, parseProject, type Project } from './schema.js'
 
 /** AI로 초안 만들기: 한두 문장 설명 → 노드·선 초안. 프롬프트와 결과 정리는 순수 함수로 둔다. */
 

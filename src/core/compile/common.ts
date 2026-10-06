@@ -1,5 +1,5 @@
-import { designText, type DesignDetail } from '../design'
-import type { Ir, IrScreen } from '../ir'
+import { designText, type DesignDetail } from '../design.js'
+import type { Ir, IrScreen } from '../ir.js'
 
 export const SECURITY_RULES = [
   'API 키·비밀번호·토큰은 화면(프론트엔드) 코드에 절대 쓰지 않는다. 필요하면 서버(프록시)를 거쳐 호출한다.',

@@ -1,6 +1,6 @@
-import { resolveDesign, type Design } from './design'
-import { lint } from './lint'
-import type { PlanEdge, PlanNode, Project } from './schema'
+import { resolveDesign, type Design } from './design.js'
+import { lint } from './lint/index.js'
+import type { PlanEdge, PlanNode, Project } from './schema.js'
 
 /** 화면 사이의 한 번의 이동 */
 export interface IrLink {

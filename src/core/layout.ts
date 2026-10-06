@@ -1,5 +1,5 @@
 import dagre from '@dagrejs/dagre'
-import type { Project } from './schema'
+import type { Project } from './schema.js'
 
 export const NODE_W = 240
 export const NODE_H = 88

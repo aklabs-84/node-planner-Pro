@@ -1,5 +1,5 @@
-import type { Ir } from '../../ir'
-import { acceptanceSection, dataSection, designSection, dontSection, externalsSection, notificationsSection, rolesSection, h, join, screensSection, securitySection, unresolvedSection } from '../common'
+import type { Ir } from '../../ir.js'
+import { acceptanceSection, dataSection, designSection, dontSection, externalsSection, notificationsSection, rolesSection, h, join, screensSection, securitySection, unresolvedSection } from '../common.js'
 
 /** 범용 AI 빌더(Lovable·Bolt·v0): 화면 중심, 한 번에 붙여넣는 한 덩어리. */
 export function compileBuilder(ir: Ir): string {

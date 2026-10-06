@@ -1,5 +1,5 @@
-import type { Ir } from '../../ir'
-import { acceptanceSection, bullets, dataSection, designSection, externalsSection, notificationsSection, rolesSection, h, join, screensSection, unresolvedSection } from '../common'
+import type { Ir } from '../../ir.js'
+import { acceptanceSection, bullets, dataSection, designSection, externalsSection, notificationsSection, rolesSection, h, join, screensSection, unresolvedSection } from '../common.js'
 
 /** Markdown 기획서: 사람이 읽는 문서(공유·PDF용). AI용 규칙 대신 설명 중심. */
 export function compileMarkdown(ir: Ir): string {

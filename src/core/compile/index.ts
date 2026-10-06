@@ -1,9 +1,9 @@
-import { buildIr } from '../ir'
-import type { Project } from '../schema'
-import { compileBuilder } from './targets/builder'
-import { compileChat } from './targets/chat'
-import { compileClaude } from './targets/claude'
-import { compileMarkdown } from './targets/markdown'
+import { buildIr } from '../ir.js'
+import type { Project } from '../schema.js'
+import { compileBuilder } from './targets/builder.js'
+import { compileChat } from './targets/chat.js'
+import { compileClaude } from './targets/claude.js'
+import { compileMarkdown } from './targets/markdown.js'
 
 export const TARGETS = [
   {

@@ -1,5 +1,5 @@
-import type { Ir } from '../../ir'
-import { acceptanceSection, bullets, designSection, dataSection, dontSection, externalsSection, notificationsSection, rolesSection, h, join, overview, screensSection, securitySection, unresolvedSection } from '../common'
+import type { Ir } from '../../ir.js'
+import { acceptanceSection, bullets, designSection, dataSection, dontSection, externalsSection, notificationsSection, rolesSection, h, join, overview, screensSection, securitySection, unresolvedSection } from '../common.js'
 
 /** Claude Code / Codex: 파일 구조 제안, 단계별 구현 순서, 확인 방법을 포함한다. */
 export function compileClaude(ir: Ir): string {

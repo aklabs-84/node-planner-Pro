@@ -1,6 +1,6 @@
 import { z } from 'zod'
-import { compile } from './compile'
-import type { Project } from './schema'
+import { compile } from './compile/index.js'
+import type { Project } from './schema.js'
 
 /** AI 점검: 규칙(lint)이 못 잡는 "의미" 문제를 AI가 한 번 더 봐 준다. 프롬프트·결과 해석은 순수 함수로 둔다. */
 
