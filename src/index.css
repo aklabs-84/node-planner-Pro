@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+@import '@xyflow/react/dist/style.css';
+
+@theme {
+  --font-sans: Pretendard Variable, Pretendard, -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  --color-accent: #4f46e5;
+  --color-accent-bg: #eef0ff;
+  --color-line: #e6e8ec;
+  --color-line2: #d5d8dc;
+  --color-ink: #0f172a;
+  --color-sub: #5b6475;
+  --color-mute: #8a92a3;
+  --color-canvas: #f6f7f9;
+  --color-danger: #dc2626;
+  --color-danger-bg: #feecec;
+  --color-ok: #059669;
+  --color-ok-bg: #e6f6ef;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-size: 13px;
+  color: var(--color-ink);
+  background: var(--color-canvas);
+  overflow: hidden;
+}
+
+.react-flow {
+  --xy-edge-stroke-default: #9aa2b1;
+  --xy-edge-stroke-selected-default: #4f46e5;
+  --xy-background-color-default: var(--color-canvas);
+}
+
+.react-flow__edge-textbg {
+  fill: #fff;
+}
+
+.react-flow__edge-text {
+  font-size: 11px;
+  fill: var(--color-sub);
+}
+
+.react-flow__handle {
+  width: 9px;
+  height: 9px;
+  background: #fff;
+  border: 2px solid var(--color-line2);
+}
+
+.react-flow__handle:hover {
+  border-color: var(--color-accent);
+}

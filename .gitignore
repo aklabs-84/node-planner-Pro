@@ -1,0 +1,8 @@
+node_modules
+dist
+.env*
+.vercel
+node_modules
+*.tsbuildinfo
+.claude
+.DS_Store
